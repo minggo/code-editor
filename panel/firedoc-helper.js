@@ -130,7 +130,7 @@ function generateClass(clazz) {
         description = description.concat(',');
       }
       // remove last ','
-      description.slice(0, -1);
+      description = description.slice(0, -1);
     }
 
     // it is used to create class declaration
